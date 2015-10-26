@@ -28,7 +28,8 @@ node ../node_modules/.bin/webpack
 node dist/bundle.js
 # 813001.71875
 
-# modify a file and 
+# modify a file and see that its mentioned when building again but not the
+# other files
 ```
 
 ### test/helpers/make-a-tree.js
