@@ -1,3 +1,7 @@
+# DEPRECATED
+
+This plugin was an experiment and meant to contribute to the caching discussion for webpack. Instead of trying to use this checkout the follow up, (hard-source-webpack-plugin](https://github.com/mzgoddard/hard-source-webpack-plugin), which works!
+
 # webpack-cache-module-plugin
 
 Experimental plugin to support longer term caching. At the moment manually stores built module details for a later run. During that later run it sees a normal module has an entry in the cache, if so it returns a CachedModule skipping work like parsing the content to determine dependencies.
